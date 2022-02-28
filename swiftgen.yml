@@ -1,0 +1,32 @@
+input_dir: SwiftGenExample/Resources/
+output_dir: SwiftGenExample/Generates/
+
+xcassets:
+  - inputs:
+        - Color.xcassets
+        - Image.xcassets
+    outputs:
+      templateName: swift5
+      output: AppAssets.swift
+      params:
+        publicAccess: true
+        enumName: AppAssets
+
+fonts:
+  - inputs: Fonts
+    outputs:
+      - templateName: swift5
+        output: AppFonts.swift
+        params:
+          publicAccess: true
+          enumName: AppFonts
+          
+strings:
+  inputs: L10n/en.lproj
+  outputs:
+    - templateName: structured-swift5
+      output: L10n.swift
+      params:
+        publicAccess: true
+        enumName: L10n
+        noComments: true

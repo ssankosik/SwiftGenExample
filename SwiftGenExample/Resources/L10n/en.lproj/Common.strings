@@ -1,0 +1,10 @@
+/* Other */
+"comfirm" = "Comfirm";
+"cancel" = "Cancel";
+"loading" = "Loading";
+"error" = "Error";
+/* Sub */
+"sub.comfirm" = "Comfirm";
+"sub.cancel" = "Cancel";
+"sub.loading" = "Loading";
+"sub.error" = "Error";

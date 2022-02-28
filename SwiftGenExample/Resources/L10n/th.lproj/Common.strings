@@ -1,0 +1,10 @@
+/* Common */
+"comfirm" = "ยืนยัน";
+"cancel" = "ยกเลิก";
+"loading" = "กำลังโหลด";
+"error" = "ข้อผิดพลาด";
+/* Sub */
+"sub.comfirm" = "ยืนยัน";
+"sub.cancel" = "ยกเลิก";
+"sub.loading" = "กำลังโหลด";
+"sub.error" = "ข้อผิดพลาด";

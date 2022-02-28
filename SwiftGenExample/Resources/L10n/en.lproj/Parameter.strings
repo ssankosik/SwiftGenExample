@@ -1,0 +1,3 @@
+/* Parameter */
+"parameter.string" = "%@";
+"parameter.number" = "%d %1f %1.1f";
